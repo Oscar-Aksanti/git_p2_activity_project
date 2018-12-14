@@ -10,4 +10,15 @@ var Contact = {
     }
 };
 
+var carole = Object.create(Contact);
+carole.init("Lévisse", "Carole");
+var melodie = Object.create(Contact);
+melodie.init("Nelsonne", "Mélodie");
 
+var contacts = [];
+contacts.push(carole);
+contacts.push(melodie);
+
+console.log("Bienvenue dans le gestionnaire des contacts !");
+
+console.log("Au revoir !");
