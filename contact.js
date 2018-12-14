@@ -34,10 +34,7 @@ while (choix !== "0") {
         for (var i = 0; i < contacts.length; i++) {
             console.log(contacts[i].decrire());
         }
-        // Avec une boucle foreach
-        /*contacts.forEach(function (contact) {
-            console.log(contact.decrire());
-        });*/
+
         break;
     case "2":
         var nom = prompt("Entrez le nom du nouveau contact :");
